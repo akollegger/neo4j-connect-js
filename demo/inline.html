@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>Demo</title>
+  <script src="../bower_components/superagent/superagent.js"></script>
+  <script src="../dist/neo4j-http.js"></script>
+</head>
+<body>
+<h2>Inline Script Demo</h2>
+
+<strong>Stay classy</strong> <span id="classy"></span><br/>
+<strong>Library Version:</strong> <span id="version"></span><br/>
+
+<p>Open JavaScript Console to see that <strong>Neo4jHttp</strong> is globally available.</p>
+
+<script>
+  var classyObject = new Neo4jHttp();
+ 
+  document.getElementById('classy').innerHTML = classyObject.toString();
+  document.getElementById('version').innerHTML = Neo4jHttp.VERSION;
+</script>
+</body>
+</html>
