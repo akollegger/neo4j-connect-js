@@ -1,6 +1,6 @@
 {
   "name": "neo4j-connect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./build/neo4j-connect",
   "bin": {
     "neo4j-connect": "./bin/neo4j-connect"
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "grunt"
   },
-  "description": "Thin HTTP facade for Neo4j.",
+  "description": "Connection oriented Neo4j client library.",
   "homepage": "https://github.com/akollegger/neo4j-connect-js",
   "bugs": "https://github.com/akollegger/neo4j-connect-js/issues",
   "author": {

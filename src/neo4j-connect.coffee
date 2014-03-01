@@ -13,7 +13,7 @@ Neo4jInfo = require('./neo4j-info')
 module.exports = class Neo4jConnect extends HttpOps
 
   # @property[String] Current version.
-  @VERSION: '0.1.0'
+  @VERSION: '0.1.1'
 
   #
   # Constructs a new Neo4jConnect
